@@ -2,10 +2,6 @@
 
 #// https://github.com/open-toolchain/sdk/wiki/Toolchain-Creation-page-parameters#headless-toolchain-creation-and-update
 
-
-
-
-
 # log in using the api key
 ibmcloud login --apikey "$API_KEY" -r "$REGION" 
 
@@ -30,6 +26,5 @@ curl -v -X POST \
   -H 'Accept: application/json' \
   -H "Authorization: $BEARER_TOKEN" \
   "https://cloud.ibm.com/devops/setup/deploy?env_id=$TOOLCHAIN_REGION&$PARAMETERS"
-
 
 exit 0;
