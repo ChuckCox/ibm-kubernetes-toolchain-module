@@ -23,7 +23,7 @@ variable "toolchain_name" {
 variable "application_repo" {
   type        = string
   description = "Open Toolchain Template URL"
-  default     = "https://github.com/triceam/nodejs-express-app"
+  default     = "https://github.com/ChuckCox/nodejs-express-app"
 }
 
 variable "resource_group" {
